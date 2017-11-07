@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "Reloadtab",
+  "version": "0.1",
+  "description": "Reloads a tab every 5 min (to prevent timeout for a tab where you are logged in)",
+  "homepage_url": "https://github.com/EdlinOrg/reloadtab",
+
+  "background": {
+    "scripts": ["reloadtab.js"]
+  },
+
+  "browser_action": {
+    "default_icon": "icons/icon-38.png",
+    "default_title": "Reload this tab every 5 min"
+  }
+}
